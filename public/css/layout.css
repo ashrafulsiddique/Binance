@@ -1,0 +1,89 @@
+
+/*============================Header=================*/
+
+.header-web {
+    height: 48px;
+    background: #1f1f1f;
+    /*min-width: 860px;*/
+    background: url(../images/header_bg.png) repeat-x left center;
+}
+.logo img{
+    height: 32px;
+}
+.nav-item{
+    padding: 0 10px;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link{
+    color: #fff;
+}
+.or{
+    position: relative;
+    top: 8px;
+    color: #ddd;
+}
+
+.header-content .dropdown .dropdown-menu {
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.header-content .dropdown:hover .dropdown-menu {
+    max-height: 200px;
+    opacity: 1;
+}
+
+/*.dropdown .dropdown-menu {
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    max-height: 200px;
+    opacity: 1;
+}*/
+
+.footer {
+    background: url(../images/footerT2.png) center;
+}
+.footer .footerT {
+    border-bottom: 1px solid #373839;
+}
+.footer .footerT ul {
+    padding: 15px 0;
+}
+.footer .footerT .footerTL ul li,.footer .footerTR ul li{
+    display: inline;
+    padding: 10px;
+}
+.footer .footerT .footerTL ul li:first-child{
+    padding-left: 0;
+}
+.footer .footerTR ul li:last-child{
+    padding-right: 0;
+}
+.footerB {
+    padding: 14px 0;
+    color: #aaa;
+    background: url(../images/footerT2.png)no-repeat center center;
+}
+.footer .footerT  li a {
+    font-size: 14px;
+    color: rgba(255,255,255,0.5);
+}

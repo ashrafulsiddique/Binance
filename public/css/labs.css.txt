@@ -1,0 +1,6 @@
+.header-web {
+    height: 48px;
+    background: #1f1f1f;
+    min-width: 860px;
+	repeat-x left center;
+}
